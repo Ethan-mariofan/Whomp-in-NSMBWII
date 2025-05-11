@@ -17,6 +17,11 @@ add #define EN_WHOMP PROFILEID_ADJUST_KW+"YOUR PROFILE ID" after #define WM_MANA
 
 Then follow the NSMBWer+ setup guide in the link to NSMBWer+ to compile the code
 
+Add whomp.arc into NSMBWer+'s game's "Object" folder  
+
+
+ENJOY!
+
 
 CREDITS:
   NSMBWer+: Ryguy  
