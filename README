@@ -5,3 +5,8 @@ Its the Whomp enemy from SM64, SMG2, and NSMB2
 I haven't tested it with NewerSMBW but I have tested it with NSMBWer+
 Get it here: https://github.com/Developers-Collective/NSMBWerPlus
 
+Setup:
+Place the Whomp.cpp in Kamek/src
+Place the Whomp.yaml in Kamek and in Kamek/processed
+add this line to NSMBWerProject.yaml  (WITHOUT THE QUOTS):  "  - processed/Whomp.yaml"
+
