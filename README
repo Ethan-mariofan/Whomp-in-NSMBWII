@@ -10,3 +10,16 @@ Place the Whomp.cpp in Kamek/src
 Place the Whomp.yaml in Kamek and in Kamek/processed
 add this line to NSMBWerProject.yaml  (WITHOUT THE QUOTS):  "  - processed/Whomp.yaml"
 
+add EN_WHOMP = "the sprite id you want" after "LineGod = 533," recomended to be sprite id 534  (in include/profileid.h)
+add EN_WHOMP, after "WM_MANAGER, //803" (in include/profileid.h)
+
+add #define EN_WHOMP PROFILEID_ADJUST_KW+"YOUR PROFILE ID" after #define WM_MANAGER PROFILEID_ADJUST_KW+803 in "include/asm_profiles.S" the profile id is recomended to be 804  
+
+Then follow the NSMBWer+ setup guide in the link to NSMBWer+ to compile the code
+
+
+CREDITS:
+  NSMBWer+: Ryguy  
+  Whomp Code: Ethan Mallie
+  Whomp Model: Nintendo
+  Whomp Animations: Ethan Mallie  
